@@ -1,0 +1,20 @@
+{
+  "name": "mensa-movie-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mensa Movie Discord bot manager, subscription pool and customer workers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "better-sqlite3": "^11.8.1",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7"
+  }
+}
